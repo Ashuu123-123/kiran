@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ginoong Kiran Camero</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Base Styles -->
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Open Sans', sans-serif;
+      color: #5e2c3e;
+      background: url('') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    /* Layout */
+    .container {
+      background: #ffffffee;
+      padding: 2rem;
+      border-radius: 30px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease;
+      position: relative;
+    }
+
+    /* Decorative floating hearts */
+    .bg-hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: url('https://images.app.goo.gl/5eyxcvf2HctrCxTLA.jpg') center center / cover no-repeat;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    /* Typography */
+    .title {
+      font-family: 'Garamond', cursive;
+      font-size: 2.5rem;
+      color: #000;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .letter {
+      font-family: 'Arial', cursive;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #000;
+      white-space: pre-line;
+      text-align: justify;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #b16984;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+      .title {
+        font-size: 2rem;
+      }
+      .letter {
+        font-size: 1rem;
+      }
+      input[type="submit"] {
+            width: 90%;
+            padding: 0.5rem;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bg-hearts"></div>
+
+    <h1 class="title">Pagkasawi ng damdamin</h1>
+
+    <p class="letter">
+      
+Petsa: Hulyo 17, 2025
+
+Para kay Ginoong Kiran,
+
+Nakalulungkot para sa akin na magtatapos na naman tayo sa pangalawang pagkakataon. Hindi ko lubusang maisip na bakit kailangan pang umabot sa ganito kung kaya pa namang ayusin, pag-usapan at intindihin ang isa't isa. Hindi naman sa nanunumbat ako pero napapansin ko lang minsan na nagkakaroon ka ng pagkakataong magpaliwanag sa ibang bagay (sa mas malalim na paraan o paglalahad ng damdamin) pero bakit pagdating sa akin ay hindi ko maranasan lalo na kapag nagkakaroon tayo ng mga desisyon. Halimbawa, kapag nagpapaliwanag ako pero ang makukuha ko lang na sagot ay "wala lang" o isang isang salita na "patawad". Kaya ko sinasabi ito ay gusto ko lang din namang malaman ang bahagi ng kuwento o nararamdaman mo. Sa pag-uusap natin ngayong gabi ay nalinawan ako sa mga rason mo, nilinaw mo sa akin ang lahat na hanggang dito na lang talaga tayo. Alam kong wala rin namang patutunguhan 'tong mensahe ko pero sana ay maunawaan mo dahil lubos akong nasasaktan ngayon. Umasa na naman na akala ko ay magtatagal tayo pero mauudlot na naman kung anong mayroon sa pagitan nating dalawa. Minsan napapaisip ako kung sapat ba ang mga ginagawa ko para mapasaya kita o sadyang ayaw mo na talaga pero naiintindihan ko naman ang rason mo ngayon kasi mahirap naman talagang pagsabayin ang pag-aaral at ang pagkakaroon ng karelasyon. Kung hanggang dito na lamang ito ay maraming salamat sa pakikipag-usap para masabayan ako sa mga biro at kulitan. Salamat sa pag-ibig na inialay mo sa akin. Ingatan mo palagi ang iyong sarili. 
+
+Nasasaktan,
+Ash. 
+
+_______________________________________
+     </p>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm" action="page4.html">
+            <input type="submit" value="Kasunod na bahagi">
+        </form>
+  </div>
+</body>
+</html>

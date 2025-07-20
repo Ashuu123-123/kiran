@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+                  <a href="https://ibb.co/WSmfVrT"><img src="https://i.ibb.co/pCYdhHm/60bc4d09cbca1337ba4f1752a43d4c51.jpg" alt="60bc4d09cbca1337ba4f1752a43d4c51" border="0"></a>
+            no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+            color: #5e2c3e;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+        }
+
+        .container {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 30px;
+            max-width: 700px;
+            width: 95%;
+            max-height: 100%;
+            overflow-y: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: fadeIn 2s ease;
+            position: relative;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        h1 {
+            font-family: 'Garamond', cursive;
+            font-size: 3rem;
+            color: #d6336c;
+            margin-bottom: 0.5rem;
+        }
+
+        label {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #6c4c57;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 90%;
+            padding: 0.5rem;
+            background-color: #d6336c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mr. Kiran Camero</h1>
+        <form id="myForm" action="page2.html">
+            <label>Complete Name:</label>
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

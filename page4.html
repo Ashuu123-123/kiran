@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ginoong Kiran Camero</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Base Styles -->
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Open Sans', sans-serif;
+      color: #5e2c3e;
+      background: url('') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    /* Layout */
+    .container {
+      background: #ffffffee;
+      padding: 2rem;
+      border-radius: 30px;
+      max-width: 700px;
+      width: 100%;
+      max-height: 100%;
+      overflow-y: auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease;
+      position: relative;
+    }
+
+    /* Decorative floating hearts */
+    .bg-hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: url('https://images.app.goo.gl/5eyxcvf2HctrCxTLA.jpg') center center / cover no-repeat;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    /* Typography */
+    .title {
+      font-family: 'Garamond', cursive;
+      font-size: 2.5rem;
+      color: #000;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .letter {
+      font-family: 'Arial', cursive;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #000;
+      white-space: pre-line;
+      text-align: justify;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #b16984;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+      .title {
+        font-size: 2rem;
+      }
+      .letter {
+        font-size: 1rem;
+      }
+      input[type="submit"] {
+            width: 90%;
+            padding: 0.5rem;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bg-hearts"></div>
+
+    <h1 class="title">Pangungulila</h1>
+
+    <p class="letter">
+
+Petsa: Hulyo 19, 2025
+
+Para kay Ginoong Kiran,
+
+Nangungulila na ako sa mga salitang "mahal kita", "kulitan" at sa mga "birtuwal na halik." Hindi ko maitatanggi na sa tuwing kausap kita'y sobrang saya pa rin ng aking puso. Sa tuwing gigising ako sa umaga ay titignan ko agad kung mayroon kang mensahe ng "magandang umaga" o 'yung tawagan nating dalawa. Hindi lang ako basta nahulog sa 'yo kundi na rin napamahal na talaga ako nang husto. Salamat pa rin dahil naranasan kong ibigin ng isang tulad mo na noo'y pinapangarap ko lang na sana'y mapansin mo. Alam kong masasanay rin ako na hindi na tayo tulad ng dati na mas malalim ang nararamdaman sa isa't isa. Alam ko rin na darating ang araw na hindi na pabor ang tadhana sa ating dalawa. Gayunpaman, nagpapasalamat pa rin ako sa pagkakataong ibinigay para ikaw ay ibigin ko. 
+
+Salamat sa pang-unawa sa nararamdaman ko ngayon. Pangako ay sasanayin ko ang aking sarili na hindi na tayo tulad ng mga nakaraang linggo. Kagaya nga ng sinabi mo, sa mga susunod na araw ay magkaibigan na lang ang turingan nating dalawa o tropa.
+
+
+Naguguluhan ang isipan ko dahil nitong nakaraang araw ay tinawag mo pa rin ako sa palagi mong tinatawag sa akin pero kagaya nga ng banggit mo ay nasanay ka na lang. Hindi ko na alam kung biruan lalo na ang patuloy na mga biro at harutan o sadyang nasanay na lang din ako. 
+
+Nangungulila,
+Ash. 
+
+_______________________________________
+     </p>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm" action="page5.html">
+            <input type="submit" value="Kasunod na bahagi">
+        </form>
+  </div>
+</body>
+</html>
